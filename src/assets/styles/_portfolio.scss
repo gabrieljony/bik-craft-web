@@ -1,0 +1,27 @@
+.internal-portfolio {
+  background: url("../img/bg-portfolio.jpg") no-repeat center;
+  background-size: cover;
+  @include responsive(cellphone) {
+    background: url("../img/bg-portfolio-mobile.jpg");
+  }
+}
+
+.costumer_quote {
+  margin: 0 auto;
+  padding: 40px 0;
+  max-width: 500px;
+  text-align: center;
+}
+.costumer_quote p {
+  text-align: center;
+  @include type-2(18);
+  margin-bottom: 20px;
+}
+.costumer_quote cite {
+  @include type-1(18);
+  font-style: normal;
+  font-weight: bold;
+  text-transform: capitalize;
+  float: right;
+  margin-bottom: 40px;
+}

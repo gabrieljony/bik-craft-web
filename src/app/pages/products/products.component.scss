@@ -1,0 +1,35 @@
+@import './../../../assets/styles/variables';
+
+/* PRODUTOS */
+.products {
+  padding: 60px 0;
+}
+.products img {
+  padding: 20px;
+}
+.products_list li {
+  background-color: $primary-color;
+  text-align: center;
+}
+.products_list li h3 {
+  font-weight: bold;
+  @include type-1(18);
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.products_list li h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 2px auto;
+  background-color: $black;
+}
+.products_list li p {
+  padding: 10px 20px 20px 20px;
+}
+.products_list_icon {
+  background-color: $black;
+  padding: 30px;
+}

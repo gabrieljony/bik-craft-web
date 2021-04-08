@@ -1,0 +1,32 @@
+@import './../../../assets/styles/variables';
+@import './../../../assets/styles/grid';
+
+/* PORTFÓLIO */
+.portfolio {
+  width: 100%;
+  background-color: $black;
+  padding: 60px 0;
+}
+.portfolio .subtitle {
+  color: $primary-color;
+}
+.portfolio .subtitle::after {
+  background-color: $primary-color;
+}
+.portfolio_items li {
+  @include responsive(cellphone) {
+	margin: 20px 0;
+  }
+}
+
+.portfolio_items li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .btn:hover {
+  color: $black;
+}
+
+.portfolio .call p {
+  color: $white;
+}

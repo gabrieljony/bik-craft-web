@@ -25,10 +25,10 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/img"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/styles/style.scss"
             ],
             "scripts": []
           },
@@ -89,10 +89,10 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/img"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/styles/style.scss"
             ],
             "scripts": []
           }
@@ -123,6 +123,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "bik-craft"
 }
