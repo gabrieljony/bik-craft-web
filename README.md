@@ -1,27 +1,64 @@
-# BikCraft
+<h1 align="center">
+  Bik Craft
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+<p align="center">
+  <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#stacks">Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#execução">Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">Licença</a>
+</p>
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Projeto
 
-## Code scaffolding
+> Projeto desenvolvido pelo Curso de Sass Origamid.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Stacks
 
-## Build
+Esse projeto foi construido com Angular 10.0.1, com a finalizade de usar as tecnicas do [Sass](https://sass-lang.com/):
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Variáveis
+- Nesting
+- Mixins
+- Extend
+- Operadores
+- Condicionais
+- Funções
+- Loop
 
-## Running unit tests
+## Layout
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![home](bikcraft.png)
 
-## Running end-to-end tests
+## Execução
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Frontend: http://localhost:4200
 
-## Further help
+```sh
+cd frontend/
+npm install
+npm start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contributing
+
+1. Faça o _fork_ do projeto (<https://github.com/gabrieljony/>)
+2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
+3. Faça o _commit_ (`git commit -am 'Add some Example'`)
+4. _Push_ (`git push origin feature/Example`)
+5. Crie um novo _Pull Request_
+
+## License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+<h4 align="center">
+    Desenvolvido por <a href="https://www.linkedin.com/in/gabriel-jony/">Gabriel Jony</a>
+</h4>
